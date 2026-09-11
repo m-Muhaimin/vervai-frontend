@@ -26,7 +26,7 @@ export default function SignUpProviders() {
 
   return (
     <button
-      className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-lg bg-surface-container hover:bg-surface-variant transition-colors shadow-sm active:scale-[0.98] disabled:opacity-60 disabled:pointer-events-none"
+      className="w-full flex items-center justify-center gap-3 py-2.5 px-4 rounded-lg bg-surface-container hover:bg-surface-variant transition-colors shadow-sm active:scale-[0.98] disabled:opacity-60 disabled:pointer-events-none"
       type="button"
       disabled={loading}
       onClick={handleGoogle}

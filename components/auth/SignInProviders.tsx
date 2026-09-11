@@ -27,7 +27,7 @@ export default function SignInProviders() {
   return (
     <div className="mb-8">
       <button
-        className="w-full flex items-center justify-center gap-3.5 px-4 py-3 bg-surface-container-lowest hover:bg-surface-container-low shadow-sm transition-all duration-150 rounded-lg active:scale-[0.99] disabled:opacity-60 disabled:pointer-events-none"
+        className="w-full flex items-center justify-center gap-3.5 py-2.5 px-4 bg-surface-container-lowest hover:bg-surface-container-low shadow-sm transition-all duration-150 rounded-lg active:scale-[0.99] disabled:opacity-60 disabled:pointer-events-none"
         type="button"
         disabled={loading}
         onClick={handleGoogle}

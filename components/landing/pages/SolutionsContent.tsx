@@ -582,13 +582,13 @@ export default function SolutionsContent() {
             </div>
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto shrink-0 relative z-10">
               <Link
-                className="inline-flex items-center justify-center font-body-medium text-body-medium bg-primary-container text-on-primary hover:bg-primary px-6 py-3 rounded-lg shadow-sm transition-all active:scale-[0.98]"
+                className="inline-flex items-center justify-center font-body-medium text-body-medium bg-primary-container text-on-primary hover:bg-primary py-2.5 px-5 rounded-lg shadow-sm transition-all active:scale-[0.98]"
                 href="/sign-up"
               >
                 Start Free Trial
               </Link>
               <Link
-                className="inline-flex items-center justify-center font-body-medium text-body-medium bg-surface-container text-on-surface hover:bg-surface-container-high px-6 py-3 rounded-lg transition-all"
+                className="inline-flex items-center justify-center font-body-medium text-body-medium bg-surface-container text-on-surface hover:bg-surface-container-high py-2.5 px-5 rounded-lg transition-all"
                 href="/enterprise"
               >
                 Book Architecture Demo

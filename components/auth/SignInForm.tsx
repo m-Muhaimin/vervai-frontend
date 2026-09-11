@@ -116,7 +116,7 @@ export default function SignInForm() {
 
       <div className="pt-2">
         <button
-          className="w-full py-3.5 px-6 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.98] group disabled:opacity-60 disabled:pointer-events-none"
+          className="w-full py-2.5 px-5 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.98] group disabled:opacity-60 disabled:pointer-events-none"
           type="submit"
           disabled={status === "submitting" || status === "success"}
         >

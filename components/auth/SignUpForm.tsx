@@ -115,7 +115,7 @@ export default function SignUpForm() {
 
       <div className="pt-2">
         <button
-          className="w-full py-3.5 px-6 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-all shadow-md active:scale-[0.98] flex items-center justify-center gap-2 disabled:opacity-60 disabled:pointer-events-none"
+          className="w-full py-2.5 px-5 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-all shadow-md active:scale-[0.98] flex items-center justify-center gap-2 disabled:opacity-60 disabled:pointer-events-none"
           id="submit-register"
           type="submit"
           disabled={status === "submitting" || status === "success"}

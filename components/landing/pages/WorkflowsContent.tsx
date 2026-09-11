@@ -24,21 +24,21 @@ export default function WorkflowsContent() {
             A transparent, deterministic workflow engineered to eliminate prompt fatigue, preserve authentic executive voice, and automate multi-channel sovereign distribution.
           </p>
           <div className="w-full bg-surface-container-low p-2 rounded-xl shadow-sm grid grid-cols-1 md:grid-cols-3 gap-2">
-            <Link className="flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-01">
+            <Link className="flex items-center gap-3 py-2.5 px-4 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-01">
               <div className="w-7 h-7 rounded-md bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm shrink-0">1</div>
               <div className="min-w-0">
                 <span className="block font-caption-bold text-caption-bold uppercase tracking-wider text-secondary">Act 01</span>
                 <span className="block font-body-medium text-body-medium truncate font-semibold">Zero-Config Intake</span>
               </div>
             </Link>
-            <Link className="flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-02">
+            <Link className="flex items-center gap-3 py-2.5 px-4 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-02">
               <div className="w-7 h-7 rounded-md bg-surface-container-highest text-on-surface-variant group-hover:bg-primary-container group-hover:text-on-primary flex items-center justify-center font-headline-sm text-headline-sm shrink-0 transition-colors">2</div>
               <div className="min-w-0">
                 <span className="block font-caption-bold text-caption-bold uppercase tracking-wider text-secondary">Act 02</span>
                 <span className="block font-body-medium text-body-medium truncate font-semibold">Agent Synthesis</span>
               </div>
             </Link>
-            <Link className="flex items-center gap-3 px-4 py-3 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-03">
+            <Link className="flex items-center gap-3 py-2.5 px-4 rounded-lg bg-surface-container-lowest text-on-surface shadow-sm transition-all hover:bg-surface-bright group text-left" href="#act-03">
               <div className="w-7 h-7 rounded-md bg-surface-container-highest text-on-surface-variant group-hover:bg-primary-container group-hover:text-on-primary flex items-center justify-center font-headline-sm text-headline-sm shrink-0 transition-colors">3</div>
               <div className="min-w-0">
                 <span className="block font-caption-bold text-caption-bold uppercase tracking-wider text-secondary">Act 03</span>
@@ -452,10 +452,10 @@ export default function WorkflowsContent() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto relative z-10">
-            <Link className="w-full sm:w-auto inline-flex items-center justify-center font-body-medium text-body-medium bg-surface-container-lowest text-on-surface hover:bg-surface-bright px-6 py-3 rounded-lg transition-all active:scale-[0.98] shadow-sm font-semibold" data-path="start-free-trial" href="/sign-up">
+            <Link className="w-full sm:w-auto inline-flex items-center justify-center font-body-medium text-body-medium bg-surface-container-lowest text-on-surface hover:bg-surface-bright py-2.5 px-5 rounded-lg transition-all active:scale-[0.98] shadow-sm font-semibold" data-path="start-free-trial" href="/sign-up">
               Upload Your First Thought
             </Link>
-            <Link className="w-full sm:w-auto inline-flex items-center justify-center font-body-medium text-body-medium bg-transparent text-on-primary hover:bg-white/10 px-5 py-3 rounded-lg transition-colors font-semibold" data-path="product-architecture" href="/features">
+            <Link className="w-full sm:w-auto inline-flex items-center justify-center font-body-medium text-body-medium bg-transparent text-on-primary hover:bg-white/10 py-2.5 px-5 rounded-lg transition-colors font-semibold" data-path="product-architecture" href="/features">
               Read Technical Codex
             </Link>
           </div>

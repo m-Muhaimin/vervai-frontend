@@ -27,7 +27,7 @@ export default function LandingContent() {
         
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto justify-center mb-16">
-          <a className="w-full sm:w-auto h-11 px-8 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 hover:bg-primary shadow-sm transition-all active:scale-[0.98]" data-path="start-free-trial" href="/sign-up">
+          <a className="w-full sm:w-auto h-11 px-6 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center gap-2 hover:bg-primary shadow-sm transition-all active:scale-[0.98]" data-path="start-free-trial" href="/sign-up">
             <span>Start Free Trial
             </span>
             <span className="material-symbols-outlined text-[18px]">arrow_forward
@@ -748,7 +748,7 @@ export default function LandingContent() {
           </p>
         </div>
         <div className="relative z-10 flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
-          <a className="w-full sm:w-auto h-11 px-8 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center hover:bg-primary shadow-sm transition-all active:scale-[0.98]" data-path="start-free-trial" href="/sign-up">
+          <a className="w-full sm:w-auto h-11 px-6 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm flex items-center justify-center hover:bg-primary shadow-sm transition-all active:scale-[0.98]" data-path="start-free-trial" href="/sign-up">
             Start Free Trial
           
           </a>

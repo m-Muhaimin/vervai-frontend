@@ -212,7 +212,7 @@ export default function PricingContent() {
             </div>
             <Link
               href="/sign-up"
-              className="w-full text-center py-3 px-4 rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors block"
+              className="w-full text-center py-2.5 px-4 rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors block"
             >
               Start 14-Day Free Trial
             </Link>
@@ -332,7 +332,7 @@ export default function PricingContent() {
             <div className="relative z-10">
               <Link
                 href="/sign-up"
-                className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-lg bg-surface-container-lowest text-primary font-headline-sm text-headline-sm hover:bg-surface-container-low transition-colors shadow-md"
+                className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-lg bg-surface-container-lowest text-primary font-headline-sm text-headline-sm hover:bg-surface-container-low transition-colors shadow-md"
               >
                 <span>Start 14-Day Free Trial</span>
                 <Icon name="arrow_forward" size={18} />
@@ -441,7 +441,7 @@ export default function PricingContent() {
             </div>
             <Link
               href="/enterprise"
-              className="w-full text-center py-3 px-4 rounded-lg bg-surface-container-highest text-on-surface font-headline-sm text-headline-sm hover:bg-surface-dim transition-colors block"
+              className="w-full text-center py-2.5 px-4 rounded-lg bg-surface-container-highest text-on-surface font-headline-sm text-headline-sm hover:bg-surface-dim transition-colors block"
             >
               Contact Solutions Desk
             </Link>
@@ -1126,14 +1126,14 @@ export default function PricingContent() {
           <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full md:w-auto">
             <Link
               href="/sign-up"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-all active:scale-[0.98] shadow-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-2.5 px-5 rounded-lg bg-primary text-on-primary font-headline-sm text-headline-sm hover:bg-primary-container transition-all active:scale-[0.98] shadow-sm"
             >
               <span>Start Free 14-Day Trial</span>
               <Icon name="arrow_forward" size={18} />
             </Link>
             <Link
               href="/enterprise"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors"
+              className="w-full sm:w-auto inline-flex items-center justify-center py-2.5 px-5 rounded-lg bg-surface-container-high text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors"
             >
               Book Technical Demo
             </Link>

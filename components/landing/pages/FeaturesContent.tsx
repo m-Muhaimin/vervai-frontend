@@ -30,7 +30,7 @@ export default function FeaturesContent() {
             </div>
             <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-end items-start lg:items-end">
               <Link
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg bg-primary-container text-on-primary font-body-medium text-body-medium hover:bg-primary transition-colors shadow-md active:scale-[0.98]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 py-2.5 px-5 rounded-lg bg-primary-container text-on-primary font-body-medium text-body-medium hover:bg-primary transition-colors shadow-md active:scale-[0.98]"
                 href="/sign-up"
               >
                 <span>Spin Up Pipeline Instance</span>
@@ -824,14 +824,14 @@ export default function FeaturesContent() {
               </div>
               <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3.5 items-stretch">
                 <Link
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm hover:bg-primary transition-colors shadow-sm active:scale-[0.98]"
+                  className="inline-flex items-center justify-center gap-2 py-2.5 px-5 rounded-lg bg-primary-container text-on-primary font-headline-sm text-headline-sm hover:bg-primary transition-colors shadow-sm active:scale-[0.98]"
                   href="/sign-up"
                 >
                   <span>Start Free Trial</span>
                   <Icon name="arrow_forward" size={18} />
                 </Link>
                 <Link
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-surface-container text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors active:scale-[0.98]"
+                  className="inline-flex items-center justify-center gap-2 py-2.5 px-5 rounded-lg bg-surface-container text-on-surface font-headline-sm text-headline-sm hover:bg-surface-container-highest transition-colors active:scale-[0.98]"
                   href="/features"
                 >
                   <Icon name="terminal" size={18} />
