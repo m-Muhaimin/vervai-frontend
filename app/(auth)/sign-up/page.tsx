@@ -1,6 +1,7 @@
 import FeatureCards from "@/components/auth/FeatureCards";
 import SignUpProviders from "@/components/auth/SignUpProviders";
 import SignUpForm from "@/components/auth/SignUpForm";
+import BrandMark from "@/components/ui/BrandMark";
 
 export default function Page() {
   return (
@@ -11,6 +12,13 @@ export default function Page() {
             <div className="lg:col-span-5 flex flex-col justify-between p-8 sm:p-10 rounded-xl bg-surface-container-high relative overflow-hidden shadow-sm">
               <div className="absolute -right-16 -bottom-16 w-64 h-64 rounded-full bg-surface-variant/40 blur-2xl pointer-events-none"></div>
               <div>
+                <div className="flex items-center gap-3 mb-8">
+                  <BrandMark size={56} />
+                  <div className="flex flex-col">
+                    <span className="font-headline-md text-headline-md tracking-tight text-on-surface">VervAI</span>
+                    <span className="font-label-caps text-label-caps uppercase tracking-wider text-outline">Autonomous Grid</span>
+                  </div>
+                </div>
                 <span className="font-label-caps text-label-caps text-primary uppercase tracking-widest block mb-2">
                   Autonomous Studio Engine
                 </span>

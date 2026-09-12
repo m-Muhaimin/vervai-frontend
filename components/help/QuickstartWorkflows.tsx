@@ -10,7 +10,7 @@ const QUICKSTART_STEPS: QuickstartStep[] = [
   {
     number: "01",
     icon: "upload_file",
-    title: "Source Intake",
+    title: "Source",
     description:
       "Connect Zoom records, YouTube feeds, or RAW WAV files. Supports automatic speaker separation.",
     docs: "Docs: /ingest/v3",

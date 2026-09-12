@@ -20,7 +20,7 @@ export default function Page() {
           <span className="hover:text-primary transition-colors cursor-pointer">Workspace</span>
           <span className="material-symbols-outlined text-[14px]">chevron_right</span>
           <span className="text-on-surface font-body-medium text-body-medium">
-            Documentation & Knowledge Base
+            Help
           </span>
         </div>
         <div className="flex items-center gap-space-sm">
@@ -44,7 +44,7 @@ export default function Page() {
               </span>
             </div>
             <h1 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-              Documentation & Knowledge Base
+              Help
             </h1>
             <p className="font-body-base text-body-base text-on-surface-variant max-w-2xl">
               Architecture guides, autonomous agent workflows, prompt tuning, and deterministic API

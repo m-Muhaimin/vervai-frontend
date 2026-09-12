@@ -17,7 +17,7 @@ export default function LibraryHeader({
             </span>
           </div>
           <h1 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-            Content Library
+            Library
           </h1>
           <p className="font-body-base text-body-base text-secondary mt-1">
             Everything VervAI has synthesized, refined, and packaged from your source nodes.

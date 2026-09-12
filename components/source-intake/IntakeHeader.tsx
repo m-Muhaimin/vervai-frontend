@@ -8,11 +8,11 @@ export default function IntakeHeader() {
           </span>
           <span className="text-outline-variant font-label-caps text-label-caps">/</span>
           <span className="font-label-caps text-label-caps uppercase text-primary tracking-wider">
-            Source Intake
+            Source
           </span>
         </div>
         <h1 className="font-display-xl text-display-xl text-on-surface tracking-tight">
-          Source Intake
+          Source
         </h1>
         <p className="font-body-medium text-body-medium text-secondary max-w-2xl">
           Bring your raw audio, video, document, or URL. VervAI analyzes the material and extracts

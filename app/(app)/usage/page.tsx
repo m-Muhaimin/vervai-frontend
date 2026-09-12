@@ -79,7 +79,7 @@ export default async function Page() {
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-lg pb-space-sm">
         <div className="max-w-2xl">
           <h1 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-            Usage &amp; Telemetry
+            Usage
           </h1>
           <p className="font-body-base text-body-base text-secondary mt-1">
             Real-time observability into your content pipeline: sources

@@ -1,5 +1,6 @@
 import SignInProviders from "@/components/auth/SignInProviders";
 import SignInForm from "@/components/auth/SignInForm";
+import BrandMark from "@/components/ui/BrandMark";
 import { Suspense } from "react";
 
 export default function Page() {
@@ -12,12 +13,7 @@ export default function Page() {
             <div className="absolute -left-12 -bottom-12 w-64 h-64 rounded-full bg-secondary-fixed opacity-30 blur-2xl pointer-events-none"></div>
             <div className="relative z-10 flex flex-col gap-6">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg bg-on-surface flex items-center justify-center shadow-sm">
-                  <svg className="w-6 h-6 text-surface-bright" fill="none" viewBox="0 0 40 40">
-                    <path d="M10 11L20 29L30 11" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4.5"></path>
-                    <circle cx={20} cy={20} fill="#007454" r={3.5}></circle>
-                  </svg>
-                </div>
+                <BrandMark size={56} />
                 <div className="flex flex-col">
                   <span className="font-headline-md text-headline-md tracking-tight text-on-surface">VervAI</span>
                   <span className="font-label-caps text-label-caps uppercase tracking-wider text-outline">Autonomous Grid</span>

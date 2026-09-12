@@ -262,7 +262,7 @@ export default async function Page() {
     <div className="flex flex-col w-full">
       <PageHeading
         eyebrow="Autonomous Operations"
-        title="Workspace Overview"
+        title="Dashboard"
         subtitle="Your content pipeline, live from the database."
         actions={
           <>

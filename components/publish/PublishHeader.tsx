@@ -16,7 +16,7 @@ export default function PublishHeader({
           <span className="text-primary font-bold">Orchestration &amp; Relays</span>
         </div>
         <h1 className="font-headline-xl text-headline-xl text-on-surface tracking-tight">
-          Distribution &amp; Publishing
+          Publish
         </h1>
         <p className="font-body-medium text-body-medium text-on-surface-variant max-w-2xl">
           Turn approved agent outputs into scheduled multi-channel distribution. Human-verified

@@ -163,7 +163,7 @@ export default function QuotaMonitors({
             </div>
             <div>
               <p className="font-label-caps text-label-caps uppercase text-outline">
-                Distribution
+                Publish
               </p>
               <h2 className="font-headline-sm text-headline-sm text-on-surface">
                 Published

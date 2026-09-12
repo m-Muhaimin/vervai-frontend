@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BrandMark from "@/components/ui/BrandMark";
 
 type FooterColumn = { title: string; links: { label: string; href: string }[] };
 
@@ -41,21 +42,7 @@ export default function MarketingFooter() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Link href="/" className="flex items-center gap-3">
-                  <svg
-                    className="w-7 h-7 text-surface-bright"
-                    fill="none"
-                    viewBox="0 0 40 40"
-                    aria-hidden
-                  >
-                    <path
-                      d="M10 11L20 29L30 11"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="4.5"
-                    />
-                    <circle cx={20} cy={20} fill="#007454" r={3.5} />
-                  </svg>
+                  <BrandMark size={40} className="text-on-surface" />
                   <span className="font-headline-md text-headline-md text-on-surface">VervAI</span>
                 </Link>
                 <span className="font-label-caps text-label-caps tracking-wider text-outline">

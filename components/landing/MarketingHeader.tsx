@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/components/Logo";
+import BrandMark from "@/components/ui/BrandMark";
 import Icon from "@/components/ui/Icon";
 
 const LINKS = [
@@ -24,7 +24,7 @@ export default function MarketingHeader() {
       <div className="h-14 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center gap-3">
-            <Logo size={32} />
+            <BrandMark size={40} className="text-on-surface" />
             <span className="font-headline-md text-headline-md text-on-surface tracking-tight">
               VervAI
             </span>

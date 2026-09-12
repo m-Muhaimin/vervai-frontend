@@ -265,7 +265,7 @@ export default async function Page() {
         </div>
         <ConnectorSection
           colorBar="bg-primary"
-          title="Source Intake & Storage Connectors"
+          title="Source & Storage Connectors"
           badge={`${connectedCount} Connected`}
           meta="Raw Ingestion Layer"
           items={sourceConnectors(connections)}

@@ -45,7 +45,7 @@ export default function CreditCards({
       footerLeft: "Active content sources",
     },
     {
-      label: "Distribution",
+      label: "Publish",
       title: "Posts Published",
       icon: "send",
       iconClass: "bg-secondary-fixed text-on-secondary-fixed",

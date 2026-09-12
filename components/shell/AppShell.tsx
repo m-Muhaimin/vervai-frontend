@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import Logo from "@/components/Logo";
+import BrandMark from "@/components/ui/BrandMark";
 import Icon from "@/components/ui/Icon";
 import { ButtonLink } from "@/components/ui/Button";
 import Avatar from "@/components/ui/Avatar";
@@ -106,8 +106,8 @@ function SidebarNav({
 function BrandRow() {
   return (
     <div className="h-14 px-space-md border-b border-outline-variant/30 flex items-center justify-between shrink-0">
-      <div className="flex items-center gap-space-sm">
-        <Logo size={32} />
+      <div className="flex items-center gap-space-xs">
+        <BrandMark size={48} className="text-on-surface" />
         <span className="font-headline-md text-headline-md text-on-surface tracking-tight">
           VervAI
         </span>
